@@ -1,9 +1,59 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>Title</title>
-  </head>
-  <body>
-    <p>Paragraph</p>
-  </body>
+ <head>
+   <meta charset="utf-8>"
+   <meta name="description" content= My first web page, with proper style >
+   <meta name="keyword" content="immaculata, ics2o">
+   <meta name="author" content="Shem Student">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+   <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-pink.min.css">
+   <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+   <title>Title</title>
+   <link rel="icon" type="image/png" sizes="160x160" href="./Favicon/NFL.png">
+ </head>
+
+
+<!-- Always shows a header, even in smaller screens. -->
+<div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+ <header class="mdl-layout__header">
+   <div class="mdl-layout__header-row">
+     <!-- Title -->
+     <span class="mdl-layout-title">Football</span>
+    
+ </header>
+ <div class="mdl-layout__drawer">
+   <span class="mdl-layout-title">Football</span>
+   <nav class="mdl-navigation">
+     <a class="mdl-navigation__link" href="./index2.html">Images of football players</a>
+     <a class="mdl-navigation__link" href="./index3.html">Video</a>
+   </nav>
+ </div>
+<body style="background-color: black;">
+ <h1 style="color: white;">Information about football</h1>
+ <p><h4><b style="color: white;">American football, version of the sport of football that evolved from English
+ rugby and soccer (association football); it differs from soccer chiefly in allowing
+ players to touch, throw, and carry the ball with their hands, and it differs from
+ rugby in allowing each side to control the ball in alternating possessions. The sport,
+   played with 11 on each side, originated in North America, primarily in the United States,
+   where it eventually became the country leading spectator sport. It also developed simultaneously
+   in Canada, where it evolved into a 12-man game, though Canadian football never achieved the
+     great popularity and status of ice hockey there. American football has not been taken up in
+     the rest of the world to the same degree as other American sports such as basketball and baseball.
+       Since the 1980s, however, primarily through the marketing efforts of the National Football League,
+       teams and leagues have been established in Europe, and the game has achieved a degree of
+       international popularity through television. The sport is sometimes called gridiron football
+       because of the vertical yard lines marking the rectangular field.</h4></b>
+</p>
+   <script>
+     function btnClickMe() {
+       alert("Football is a sport that everyone loves")
+     }
+   </script>
+<button onclick="btnClickMe()" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent">
+   Learn more
+</button>
+<img src="./images/NFL.png" width="50px" height="50px">
+</body>
 </html>
+
